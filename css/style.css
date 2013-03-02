@@ -3,6 +3,7 @@
 .pageContainer {
 	margin: 0 auto;
 	width:660px;
+	display:none;
 
 	}
 
@@ -15,11 +16,13 @@ h1 {
 	line-height: 0;
 	min-width: 25em;
 
-
-
 	}
-nav {
-	max-width:62em;
+
+.blogHeader {
+	font-family:  'Exo', sans-serif;
+	font-size: 1.5em;
+	margin: 0 0 .7em 0;
+	letter-spacing: 1px;
 
 }
 
@@ -28,12 +31,20 @@ li {
 
 	}
 
+
+/*Header Navigation*/
+
+nav {
+	max-width:62em;
+
+}
+
 ul.nav_header{
 
-	padding: .5em 1em .5em 0;
+	padding: .5em .5em .5em 0;
 	background: #c6c7bf;
 	min-width: 26em;
-	margin: .5em 0;
+	margin: .3em 0 0 0;
 	}
 
 ul.nav_header li a{
@@ -42,7 +53,7 @@ ul.nav_header li a{
 	text-align: center;
 	text-decoration: none;
 	color: black;
-	padding: .5em 1em;
+	padding: .5em .5em;
 	background: #c6c7bf;
 	
 	}
@@ -53,21 +64,51 @@ ul.nav_header li a:hover {
 	
 	}
 
+/*Blockquote*/
 
 blockquote {
 	font-family: 'Exo', sans-serif;
 	font-weight: 300;
-
-	background: #3ea552;
-	line-height: 2em;
+	background: #00c600;
+	line-height: 1.8em;
 	color :#f7f7f7;
-	font: 150%;
-	margin: .5em 0 .5em 0;
-	padding: 1em 1em; 
-	min-width: 25em;
-	max-width:60em;
-
+	font-size: 110%;
+	margin: .5em 0;
+	padding: 1em 1em;
+	width: 52%;
+	float: left;
 	}	
 
+blockquote li {
+	position: relative;
+	display:block;
+	color:white;
+	width: 100%;
+	padding: 0 1em;
+	right: 1em;
 
+	
+}
+
+blockquote li:hover {
+	background: #f38a00;
+
+}
+
+blockquote ul {
+	padding: 0 0;
+	margin: 0 0;
+}
+
+a.email:link {
+	color: white;
+	text-decoration: none;
+}
+
+
+img {
+	max-width: 41%;
+	float: right;
+	margin: .5em 0em 1em 0;
+}
 
